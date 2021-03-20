@@ -40,7 +40,7 @@
       "type": "text"
     },
     "illustration": {
-      "type": "string"
+      "type": "text"
     },
     "illustrationViewbox": {
       "default": "0 0 327 86",
