@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "projects",
   "info": {
@@ -11,7 +12,8 @@
       "created_at",
       "updated_at"
     ],
-    "comment": ""
+    "comment": "",
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -31,14 +33,8 @@
     "subtitle": {
       "type": "text"
     },
-    "tokens": {
-      "type": "json"
-    },
     "content": {
       "type": "richtext"
-    },
-    "tokens_dark": {
-      "type": "json"
     },
     "credit": {
       "type": "text"
@@ -58,6 +54,12 @@
         "archived"
       ],
       "type": "enumeration"
+    },
+    "tokens": {
+      "type": "json"
+    },
+    "tokens_dark": {
+      "type": "json"
     }
   }
 }
